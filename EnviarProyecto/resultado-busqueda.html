@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado-Búsqueda</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css"> 
+</head>
+<body class="bodystyle">
+    
+    <header class="headerstyle">
+        <div class="dispo-listado dispo-elementos headerstyle">
+            <div>
+                <h1 class="tamanofuenteh1 headerh1">DH Music Studio</h1>
+            </div>
+        </div>
+        <div class="dispo-listado dispo-elementos headerstyle">
+            <nav class="">
+                <ul class="estilo-listas dispo-listado dispo-elementos">
+                    <li class="stylenav"><a href="./home.html" class="estiloa">Home</a></li>
+                    <li class="stylenav"><a href="./playlist.html" class="estiloa">Playlist</a></li>
+                    <li class="stylenav"><a href="./generos.html" class="estiloa">Géneros</a></li>    
+                </ul>
+            </nav>
+            <form name="myForm" action="./resultado-busqueda.html" method="GET" class="ubiform" onsubmit="searchArtist()" > 
+                <input type="text" name="fname" id="busqueda" placeholder="Busca Musica Aqui">
+                <button> <i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            </div>
+            
+        </div>
+    </header>
+<!-- HACER PUNTO BUSQUEDA, PREGUNTAR  CONSIGNA -->
+    <main class="mainstyle">
+       
+
+        <section id="resultadoBusquedaSection">
+
+
+        </section>
+   
+   
+    </main>  
+
+    <footer  class="footersytle">
+
+        <ul class="datos estilo-listas dispo-listado dispo-elementos headerstyle">
+            <li>
+                Francisco Ameijeiras
+            </li>
+            <li>
+                Santino Soto
+            </li>
+            <li>
+                Nicole Sikorski
+            </li>
+        </ul>
+
+    </footer>
+<script src="./js/resultado-busqueda.js"></script>
+<script src="./js/ageneral.js"></script>
+
+
+</body>
+</html>
